@@ -1,0 +1,24 @@
+{
+    "name": "Fitness Importer",
+    "dataStreamName": "com.ericmcconkie.fitimporter",
+    "dataType": {
+        "field": [{
+            "name": "activity",
+            "format": "integer"
+        }],
+        "name": "com.google.activity.segment"
+    },
+    "application": {
+        "version": "1",
+        "name": "com.ericmcconkie.fitimporter"
+    },
+    "device": {
+        "model": "web",
+        "version": "1",
+        "type": "unknown",
+        "uid": "1",
+        "manufacturer": "ericmcconkie"
+    },
+    "dataStreamId": "raw:com.google.activity.segment:481402477169:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
+    "type": "raw"
+}

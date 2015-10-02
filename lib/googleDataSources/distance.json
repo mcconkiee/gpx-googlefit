@@ -1,0 +1,26 @@
+{
+    "name": "Fitness Importer",
+    "dataStreamName": "com.ericmcconkie.fitimporter",
+    "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      },
+    "application": {
+        "version": "1",
+        "name": "com.ericmcconkie.fitimporter"
+    },
+    "device": {
+        "model": "web",
+        "version": "1",
+        "type": "unknown",
+        "uid": "1",
+        "manufacturer": "ericmcconkie"
+    },
+    "dataStreamId": "derived:com.google.distance.delta:481402477169:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
+    "type": "derived"
+}

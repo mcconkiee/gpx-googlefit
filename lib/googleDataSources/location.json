@@ -1,0 +1,38 @@
+{
+    "name": "Fitness Importer",
+    "dataStreamName": "com.ericmcconkie.fitimporter",
+    "dataType": {
+        "field": [
+          {
+            "name": "latitude", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "longitude", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "accuracy", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "altitude", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.location.sample"
+      },
+    "application": {
+        "version": "1",
+        "name": "com.ericmcconkie.fitimporter"
+    },
+    "device": {
+        "model": "web",
+        "version": "1",
+        "type": "unknown",
+        "uid": "1",
+        "manufacturer": "ericmcconkie"
+    },
+    "dataStreamId": "derived:com.google.location.sample:481402477169:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
+    "type": "derived"
+}
