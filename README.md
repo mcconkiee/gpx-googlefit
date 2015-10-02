@@ -4,6 +4,7 @@ a [Sails](http://sailsjs.org) application that imports GPX files to GoogleFit. B
 
 1. `npm install`
 2. `bower install`
+3. add your [Google oauth creds](https://console.developers.google.com) to `config/development.js` or production
 3. `sails lift` or you can run a script like `./scripts/debug.sh`
 4. navigate to `http://localhost:1337`
 5. authorize the application to use your google account
