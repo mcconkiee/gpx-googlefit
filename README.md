@@ -3,7 +3,8 @@
 a [Sails](http://sailsjs.org) application that imports GPX files to GoogleFit. By no means complete, but will allow one to take a workout exported to GPX, and drag/drop for import to [Google Fit](https://fit.google.com/).
 
 1. `npm install`
-2. `bower install`
+1. (`npm install -g bower ` if you don't have it)
+2. `bower install` 
 3. add your [Google oauth creds](https://console.developers.google.com) to `config/env/development.js` or production
 3. `sails lift` or you can run a script like `./scripts/debug.sh`
 4. navigate to `http://localhost:1337`
