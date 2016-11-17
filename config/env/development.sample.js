@@ -22,8 +22,8 @@ module.exports = {
   // }
   AWS:{
   	app:{
-  		clientId:"XXX",
-  		clientSecret:"XXX",
+  		clientId:"481402477169-i20cbh6ifsef7sb3u7vi825mpamkmrg2.apps.googleusercontent.com",
+  		clientSecret:"Sro24WdMG28ceUxHRSArsO4k",
   		callbackURL:"http://localhost:1337/oauthcallback"
   	}
   }
