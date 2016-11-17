@@ -22,3 +22,13 @@ you can read more about the gpsbabel helper in the [gpsbabel/README](./gpsbabel/
 #TODOs
 1. better calculation for calories
 2. implement heartrate from `tcx` files
+3. Pull back data and map it: 
+
+
+from the [api playground](https://developers.google.com/oauthplayground/?code=4/ZcVCGzhe2rBcBaaBCFchKopH7MfwMYhQZ69KORkondc#)
+
+```
+https://www.googleapis.com/fitness/v1/users/me/dataSources/derived:com.google.location.sample:2629a0d9:ericmcconkie:web:f8ce354a:com.ericmcconkie.fitimporter/datasets/1479140470000000000-1479146126000000000
+```
+
+returns list of location points 
