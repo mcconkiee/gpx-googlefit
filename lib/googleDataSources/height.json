@@ -1,24 +1,24 @@
 {
-    "name": "Fitness Importer",
-    "dataStreamName": "com.ericmcconkie.fitimporter",
-    "dataType": {
-        "field": [{
-            "name": "height", 
-            "format": "floatPoint"
-        }],
-        "name": "com.google.height"
-    },
-    "application": {
-        "version": "1",
-        "name": "com.ericmcconkie.fitimporter"
-    },
-    "device": {
-        "model": "web",
-        "version": "1",
-        "type": "unknown",
-        "uid": "1",
-        "manufacturer": "ericmcconkie"
-    },
-    "dataStreamId": "raw:com.google.height:481402477169:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
-    "type": "raw"
+  "name": "Fitness Importer",
+  "dataStreamName": "com.ericmcconkie.fitimporter",
+  "dataType": {
+    "field": [{
+      "name": "height",
+      "format": "floatPoint"
+    }],
+    "name": "com.google.height"
+  },
+  "application": {
+    "version": "1",
+    "name": "com.ericmcconkie.fitimporter"
+  },
+  "device": {
+    "model": "web",
+    "version": "1",
+    "type": "unknown",
+    "uid": "1",
+    "manufacturer": "ericmcconkie"
+  },
+  "dataStreamId": "raw:com.google.height:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
+  "type": "raw"
 }

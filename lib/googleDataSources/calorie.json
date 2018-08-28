@@ -1,24 +1,24 @@
 {
-    "name": "Fitness Importer",
-    "dataStreamName": "com.ericmcconkie.fitimporter",
-    "dataType": {
-        "field": [{
-            "name": "calories",
-            "format": "floatPoint"
-        }],
-        "name": "com.google.calories.expended"
-    },
-    "application": {
-        "version": "1",
-        "name": "com.ericmcconkie.fitimporter"
-    },
-    "device": {
-        "model": "web",
-        "version": "1",
-        "type": "unknown",
-        "uid": "1",
-        "manufacturer": "ericmcconkie"
-    },
-    "dataStreamId": "derived:com.google.calories.expended:481402477169:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
-    "type": "derived"
+  "name": "Fitness Importer",
+  "dataStreamName": "com.ericmcconkie.fitimporter",
+  "dataType": {
+    "field": [{
+      "name": "calories",
+      "format": "floatPoint"
+    }],
+    "name": "com.google.calories.expended"
+  },
+  "application": {
+    "version": "1",
+    "name": "com.ericmcconkie.fitimporter"
+  },
+  "device": {
+    "model": "web",
+    "version": "1",
+    "type": "unknown",
+    "uid": "1",
+    "manufacturer": "ericmcconkie"
+  },
+  "dataStreamId": "derived:com.google.calories.expended:ericmcconkie:web:1:com.ericmcconkie.fitimporter",
+  "type": "derived"
 }

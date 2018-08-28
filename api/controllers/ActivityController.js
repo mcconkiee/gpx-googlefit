@@ -53,7 +53,7 @@ module.exports = {
                 if (err) return res.serverError(err);
                 if (files[0]) {
                     var filepath = files[0].fd
-                    return fitimporter.upload(filepath, function(error, data) {                        
+                    return fitimporter.upload(".tmp/uploads/" + filepath, function (error, data) {
                         if (error) {
                             console.log("error creating import:::: ", JSON.stringify(error, null, '\t'));
                             console.log(JSON.stringify(files));
